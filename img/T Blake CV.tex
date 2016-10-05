@@ -1,0 +1,166 @@
+\documentclass[11pt,a4paper]{moderncv}
+\usepackage{moderncv}
+
+% moderncv themes
+\moderncvtheme[green]{classic}                  % optional argument are 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% Hyperlinks
+%\usepackage{hyperref}								% to use hyperlinks
+%\definecolor{linkcolour}{rgb}{0,0.2,0.6}			% hyperlinks setup
+%\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+% personal data
+\firstname{Tayler A.}
+\familyname{Blake}
+%\extrainfo{Department of Statistics, The Ohio State University} % optional, remove the line if not wanted
+              % optional, remove the line if not wanted
+\address{Columbus, OH}    % optional, remove the line if not wanted
+\phone{(740) 607-9508}                      % optional, remove the line if not wanted
+\email{tayler.a.blake@gmail.com}                      % optional, remove the line if not wanted
+\homepage{http://taylerablake.github.io}%{LinkedIn Profile}}                % optional, remove the line if not wanted
+\title{---------------------------------------------------------------} 
+%\mobile{+30 698 4385057}                    % optional, remove the line if not wanted
+%\photo[64pt][0.4pt]{picture}                         % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Some quote (optional)}                 % optional, remove the line if not wanted
+%\fax{fax (optional)}                          % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+
+\section{Education}
+%\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
+\cventry{Summer 2017 (Expected)}{Ph.D. Statistics}{The Ohio State University}{Columbus, Ohio}{}{}
+\cvitem{}{\emph{Advisor: Yoonkyung Lee}}
+\cventry{January 2010}{M.S. Statistics}{The Ohio State University}{Columbus, Ohio}{}{}  
+\cventry{May 2007}{B.A. Mathematics, Computer Science}{Capital University}{Columbus, Ohio}{}{}
+
+\section{Experience}
+
+\subsection{Machine Learning Specialist}
+\cventry{}{Pillar Technology}{Columbus, OH}{}{}{}
+\cvline{March 2016-present}{Machine learning specialist on a team responsible for designing and developing adaptive software for an IoT product to be embedded in a line of luxury
+vehicles. Responsible for setting expectations given the available resources such as data, available in-device storage space, and computational constraints with both internal team and with
+the client.}
+
+\cvline{}{Challenged to design and implement predictive algorithms in the absence of data a priori, making the balance between bias and stability of statistical estimates and predictions a crucial consideration, in addition to how imperfect statistical performance may impact user experience. Automatic variable and model selection are key techniques in ensuring that algorithms adaptively learn as more time is spent using the product. Follows works from end to end, from writing exploratory analysis to production-level implementation alongside developers using Agile best practices, with a strong emphasis on test-driven development in both Java and Scala.}
+
+\cvline{}{Spearheaded components of project planning pertaining to data and the corresponding infrastructure necessary for data collection, storage, and modeling at scale. Lead efforts to establish client trust in data modeling and algorithms, a new operating space for Pillar.}
+
+\subsection{Data Scientist}
+\cventry{}{Crosschx, Inc.}{Columbus, OH}{}{}{}
+\cvline{November 2015-February 2016}{Hired as the first data science employee in the company; sought to develop a data pipeline to separate high level analysis from raw production data, emphasizing scalability, reproducibility, and data integrity while simultaneously extracting as much reliable knowledge as possible from the existing infrastructure. }
+
+\cvline{}{Utilized Apache Spark to aggregate, summarize, and visualize data of moderately large dimension, with special focus on data quality assurance and anomaly detection. Built notebooks with Apache Zeppelin to initiate cross-team consumption of reproducible reporting of core product KPIs, with focus on providing insights using clean, trustworthy data. }
+
+\cvline{}{Built robust, parsimonious models to forecast patient wait times using generalized additive models in tangent with penalization techniques for variable selection and imposi smoothness on specific model components. Used variable importance measures as initial screen for identifying variables and engineered features having strong predictive relationships with the response variable.}
+
+
+\subsection{Data Scientist}
+\cventry{}{Crosschx, Inc.}{Columbus, OH}{}{}{}
+\cvline{November 2015-February 2016}{Hired as the first data science employee in the company; sought to develop a data pipeline to separate high level analysis from raw production data, emphasizing scalability, reproducibility, and data integrity while simultaneously extracting as much reliable knowledge as possible from the existing infrastructure. }
+
+\cvline{}{Utilized Apache Spark to aggregate, summarize, and visualize data of moderately large dimension, with special focus on data quality assurance and anomaly detection. Built notebooks with Apache Zeppelin to initiate cross-team consumption of reproducible reporting of core product KPIs, with focus on providing insights using clean, trustworthy data. }
+
+\cvline{}{Built robust, parsimonious models to forecast patient wait times using generalized additive models in tangent with penalization techniques for variable selection and imposi smoothness on specific model components. Used variable importance measures as initial screen for identifying variables and engineered features having strong predictive relationships with the response variable.}
+
+\subsection{Data Scientist}
+\cventry{}{Store Development, Starbucks Coffee Company}{Seattle, WA}{}{}{}
+\cvline{May 2014 - present}{Data scientist on a team serving the company in market planning and strategy. Utilized a variety of statistical and machine learning methods, both supervised and unsupervised such as penalized regression and classification, generalized linear models, ensemble methods including boosting, bagging, and random forests, with applications of the latter to both classification and clustering. }
+\cvline{}{Estimated causal impact of a variety of interventions, such as competitor store openings, pricing changes, or new product launches on store performance using Bayesian structural time series models and summarizes comparisons between this methodology and prior approaches, including the traditional difference-in-differences estimators. }
+\cvline{}{Cleaned and analyzed heterogeneous data from several different sources having both potential spatial and temporal components which pose challenges in aggregation and summarization.}
+
+
+\subsection{Adjunct Statistics Instructor}
+\cventry{}{Department of Mathematics, Columbus State Community College}{Columbus, Ohio}{}{}{}
+\cvline{August 2013 - January 2014}{Lecturer for an introductory statistics course for undergraduate students, Statistics 1350. Non-instruction responsibilities included curriculum and assessment development, including lecture presentations and online learning tools and learning assessments.}
+
+\subsection{Graduate Research Assistant}
+\cventry{}{Comprehensive Cancer Center, The Ohio State University}{Columbus, Ohio}{}{}{}
+\cvline{October 2011 - August 2012}{My responsibilities included analysis of large microarray data sets, in particular utilizing data mining and dimension reduction techniques to find genetic markers in leukemic patients, sharing results and collaborating with medical professionals to both direct further laboratory investigation as well as further statistical investigation.}
+
+\subsection{Graduate Research Assistant}
+\cventry{}{Department of Statistics, The Ohio State University}{Columbus, Ohio}{}{}{}
+\cvline{June 2011 - October 2011}{Responsibilities included reformulation of undergraduate introductory statistics curriculum in preparation for the university conversion from quarters to semesters, primarily writing course materials including notes and presentation slides as well as developing online learning tools.}
+
+\subsection{Graduate Research Assistant}
+\cventry{}{Nationwide Center for Advanced Customer Insights, The Ohio State University, Nationwide Insurance}{Columbus, Ohio}{}{}{}
+\cvline{June 2010 - June 2011}{My responsibilities included work on projects modeling agency behavior using high dimensional demographic and marketing data, specifically by modeling survival times using Cox proportional hazards models with both static and time-varying coefficients. Modeling was done with an emphasis on building parsimonious, interpretable models. I was responsible for presenting results in a corporate setting to high level company executives with motive to encourage and motivate business decisions and action.}
+
+\subsection{Graduate Teaching Assistant}
+\cventry{}{Department of Statistics, The Ohio State University}{Columbus, Ohio}{}{}{}
+\cvline{August 2007 - May 2014} {Lecturer for a statistics course for undergraduate engineering students, Statistics 427.}
+\cvline{}{Lecturer for an introductory statistics course, Statistics 145.}
+\cvline{}{Lecturer for a statistics course for undergraduate engineering students, Statistics 3470.}
+\cvline{}{Lab instructor for an introductory statistics course for business students, Statistics 133.}
+\cvline{}{Lab instructor for an introductory statistics course, Statistics 145.}
+\cvline{}{Lab instructor for an introductory statistics course, Statistics 245.}
+\cvline{}{Lab instructor for a statistics course for undergraduate biology students, Statistics 2480.}
+
+\section{Research Interests}
+My research interests include nonparametric function estimation, particularly utilizing reproducing kernel Hilbert space methods; my dissertation work focuses on nonparametric estimation of large covariance matrices through the estimation of covariance functions, specifically in the case of irregularly spaced and sparsely sampled data. We achieve an estimation framework with unconstrained optimization through a specific decomposition of a covariance matrix allowing the problem to be rendered as estimating regression coefficients in an autoregressive model using regularization to achieve particular properties of the solutions.
+
+
+
+\section{Computing Skills} 
+\cvline{}{Statistical/Analysis Software: R, SAS, MINITAB, JMP, ArcGIS, Alteryx, Apache Spark, Apache Zeppelin}
+\cvline{}{Programming Languages: MySQL, Git, Basic knowledge of Scala, Java, Python, and HTML}
+\cvline{}{Proficient in MS Office, RMarkdown, \LaTeX, Issue-tracking software including Jira and Confluence}
+
+
+\section{Presentations} 
+\cvitemwithcomment{October 2016}{Wards Auto User Experience Conference}{The Machines Are Coming: Will Algorithms Replace Designers in the UX World?}
+\cvitemwithcomment{August 2012}{Joint Statistical Meetings}{Nonparametric Covariance Estimation for Functional Data with Shrinkage Toward Stationary Models}
+\cvitemwithcomment{October 2011}{Ohio State Data Mining and Statistical Learning Discussion Group}{}
+\cvitemwithcomment{}{}{Discussion of ``A nonparametric view of network models and Newman-Girvan and other modularities,'' Peter J. Bickel and Aiyou Chen}
+\cvitemwithcomment{October 2010}{Ohio State Data Mining and Statistical Learning Discussion Group}{}
+\cvitemwithcomment{}{}{Discussion of ``The `Independent Components' of Natural Scenes are Edge Filters,'' Anthony J. Bell and Terrance J. Sejnowski}
+
+
+\section{Honors and Awards} 
+\subsection{The Ohio State University}
+\cvline{July 2012}{Gary Koch Travel Award to attend the Joint Statistical Meetings in San Diego, CA}
+\cvline{June 2010}{Ohio State University Department of Statistics Teaching Assistant of the Year Nominee}
+\cvline{June 2009}{Ohio State University Department of Statistics Teaching Assistant of the Year}
+\cvline{June 2008}{Ohio State University Department of Statistics Teaching Assistant of the Year Nominee}
+
+\subsection{Capital University}
+\cvline{2007}{James L. and E. Marlene Bruning Award for Undergraduate Research}
+\cvline{2007}{Presenter at the National Conference on Undergraduate Research}
+\cvline{}{Capital University Fellowship member}
+
+\section{Service} 
+\cventry{2007 - 2014}{Member, Graduate Recruitment Committee}{Department of Statistics, The Ohio State University}{}{}{} 
+\cventry{2007 - 2012}{Chair, Graduate Recruitment Committee}{Department of Statistics, The Ohio State University}{}{}{}
+
+
+\section{Hobbies and Interests} 
+\cvline{}{Competitive distance running, cooking, photography, practicing yoga}
+
+
+\section{References} 
+\cvline{}{Available upon Request}
+\end{document}
