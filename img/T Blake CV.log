@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.25)  10 NOV 2023 21:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.25)  10 NOV 2023 21:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -877,7 +877,7 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 9.12pt have occurred.
 
 Package rerunfilecheck Info: File `"T Blake CV".out' has not changed.
-(rerunfilecheck)             Checksum: 80D6E4D5FD37AF4D78A1CAE295852530;3384.
+(rerunfilecheck)             Checksum: 1E6B5366BC0CEC6D2565D25D146C880C;3432.
  ) 
 Here is how much of TeX's memory you used:
  26009 strings out of 476025
@@ -898,7 +898,7 @@ blic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsl12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmti10.pfb>
-Output written on "T Blake CV.pdf" (5 pages, 179621 bytes).
+Output written on "T Blake CV.pdf" (5 pages, 179684 bytes).
 PDF statistics:
  187 PDF objects out of 1000 (max. 8388607)
  156 compressed objects within 2 object streams
