@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.25)  10 NOV 2023 21:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.25)  8 JAN 2024 11:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -830,7 +830,6 @@ Package hyperref Info: Link coloring OFF on input line 50.
 \@outlinefile=\write4
 \openout4 = `"T Blake CV.out"'.
 
-\pagenumberwidth=\skip99
 \makecvheaddetailsbox=\box69
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 52.
@@ -847,8 +846,8 @@ nput line 52.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
 )
 \makecvheadpicturebox=\box70
-\makecvheaddetailswidth=\skip100
-\makecvheadpicturewidth=\skip101
+\makecvheaddetailswidth=\skip99
+\makecvheadpicturewidth=\skip100
 \makecvheadnamebox=\box71
 
 
@@ -876,17 +875,26 @@ l/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}]
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 9.12pt have occurred.
 
-Package rerunfilecheck Info: File `"T Blake CV".out' has not changed.
-(rerunfilecheck)             Checksum: 1E6B5366BC0CEC6D2565D25D146C880C;3432.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `"T Blake CV".out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"T Blake CV".out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  1E6B5366BC0CEC6D2565D25D146C880C;3432.
  ) 
 Here is how much of TeX's memory you used:
- 26009 strings out of 476025
- 502631 string characters out of 5790017
+ 25981 strings out of 476025
+ 502290 string characters out of 5790017
  1884388 words of memory out of 5000000
- 45895 multiletter control sequences out of 15000+600000
- 523333 words of font info for 119 fonts, out of 8000000 for 9000
+ 45871 multiletter control sequences out of 15000+600000
+ 522771 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 129i,13n,122p,1009b,470s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 129i,12n,122p,1009b,470s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome5/FontAweso
 me5Free-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/font
 awesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2023/texmf-dist/fonts/t
@@ -898,10 +906,10 @@ blic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsl12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmti10.pfb>
-Output written on "T Blake CV.pdf" (5 pages, 179684 bytes).
+Output written on "T Blake CV.pdf" (5 pages, 177158 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
- 156 compressed objects within 2 object streams
+ 116 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
  27 named destinations out of 1000 (max. 500000)
- 32949 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 30733 words of extra memory for PDF output out of 35830 (max. 10000000)
 
