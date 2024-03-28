@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.25)  16 FEB 2024 15:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.25)  27 MAR 2024 23:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -876,15 +876,21 @@ l/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}]
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 9.12pt have occurred.
 
-Package rerunfilecheck Info: File `"T Blake CV".out' has not changed.
-(rerunfilecheck)             Checksum: 1E6B5366BC0CEC6D2565D25D146C880C;3432.
+
+Package rerunfilecheck Warning: File `"T Blake CV".out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"T Blake CV".out':
+(rerunfilecheck)             Before: 1E6B5366BC0CEC6D2565D25D146C880C;3432
+(rerunfilecheck)             After:  4C0D3E9E197C5A926F6DBE8951D1BE93;3490.
  ) 
 Here is how much of TeX's memory you used:
- 26007 strings out of 476025
- 502613 string characters out of 5790017
+ 26009 strings out of 476025
+ 502627 string characters out of 5790017
  1886388 words of memory out of 5000000
  45895 multiletter control sequences out of 15000+600000
- 523282 words of font info for 118 fonts, out of 8000000 for 9000
+ 523333 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  129i,13n,122p,1009b,470s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome5/FontAweso
@@ -899,7 +905,7 @@ lic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsl10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsl12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmti10.pfb>
-Output written on "T Blake CV.pdf" (5 pages, 188686 bytes).
+Output written on "T Blake CV.pdf" (5 pages, 188734 bytes).
 PDF statistics:
  192 PDF objects out of 1000 (max. 8388607)
  159 compressed objects within 2 object streams
