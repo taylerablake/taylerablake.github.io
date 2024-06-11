@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  11 JUN 2024 14:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  11 JUN 2024 14:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -814,7 +814,6 @@ LaTeX Info: Redefining \nameref on input line 50.
 \@outlinefile=\write4
 \openout4 = `"T Blake CV.out"'.
 
-\pagenumberwidth=\skip81
 \makecvheaddetailsbox=\box62
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
 2.
@@ -851,8 +850,8 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
 \makecvheadpicturebox=\box63
-\makecvheaddetailswidth=\skip82
-\makecvheadpicturewidth=\skip83
+\makecvheaddetailswidth=\skip81
+\makecvheadpicturewidth=\skip82
 \makecvheadnamebox=\box64
 
 Underfull \hbox (badness 10000) in paragraph at lines 52--52
@@ -878,13 +877,13 @@ Package rerunfilecheck Info: File `"T Blake CV".out' has not changed.
 (rerunfilecheck)             Checksum: 925899BB43C64D0FAE26DCB847766AA5;3455.
  ) 
 Here is how much of TeX's memory you used:
- 22297 strings out of 480608
- 407079 string characters out of 5903631
- 685884 words of memory out of 5000000
- 37649 multiletter control sequences out of 15000+600000
- 606198 words of font info for 110 fonts, out of 8000000 for 9000
+ 22289 strings out of 480608
+ 406971 string characters out of 5903631
+ 685890 words of memory out of 5000000
+ 37645 multiletter control sequences out of 15000+600000
+ 601675 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,13n,68p,928b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 76i,12n,68p,939b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/local/texlive/20
 20/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2020/texmf-d
@@ -896,10 +895,10 @@ cal/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texliv
 e/2020/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/2020/tex
 mf-dist/fonts/type1/public/lm/lmro17.pfb></usr/local/texlive/2020/texmf-dist/fo
 nts/type1/public/marvosym/marvosym.pfb>
-Output written on "T Blake CV.pdf" (5 pages, 220043 bytes).
+Output written on "T Blake CV.pdf" (5 pages, 218691 bytes).
 PDF statistics:
- 173 PDF objects out of 1000 (max. 8388607)
- 153 compressed objects within 2 object streams
+ 167 PDF objects out of 1000 (max. 8388607)
+ 148 compressed objects within 2 object streams
  27 named destinations out of 1000 (max. 500000)
- 24245 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 22197 words of extra memory for PDF output out of 24883 (max. 10000000)
 
