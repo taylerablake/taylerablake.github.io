@@ -1,0 +1,68 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,letterpaper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+
+\newcommand\cpp{C\raisebox{0.5ex}{\tiny\textbf{++}}}
+\newcommand{\CompanyName}{National Institute on Aging}
+\newcommand{\PersonName}{}
+\newcommand{\Location}{Bethesda, MD, United States}
+\newcommand{\JobTitle}{Senior Data Scientist}
+
+\renewcommand*{\labelitemi}{\strut\textcolor{color1}{\large\rmfamily\textbullet}}
+% adjust the page margins
+\usepackage[top=.1in, bottom=.1in, left=.6in, right=.6in]{geometry}
+\usepackage{graphicx}
+
+\nopagenumbers{}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Tayler}{Blake}
+%\address{726 De La Vina}{Santa Barbara Ca 93101}{}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone[fixed]{(740) 607-9508}
+\email{tayler.a.blake@gmail.com}                               % optional, remove / comment the line if not wanted
+\homepage{https://taylerablake.github.io/}                         % optional, remove / comment the line if not wanted
+\social[github]{http://github.com/taylerablake}                              % optional, remove / comment the line if not wanted
+\social[linkedin]{https://www.linkedin.com/in/tayler-blake-51aa6844/}                              % optional, remove / comment the line if not wanted
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{\CompanyName}{\Location}
+\date{\today}
+\opening{To whom it may concern,}
+\closing{Sincerely,}
+\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+
+I am writing to express my interest in the Senior Data Scientist Strategist position within the Division of Geriatrics and Clinical Gerontology. With a robust background in data science and a passion for advancing geriatric research, I am excited about the opportunity to contribute to NIA's mission to improve the health and well-being of older adults through innovative scientific research. With a decade of experience, I have honed my skills in data analytics, machine learning, and statistical modeling while performing in a variety of leadership roles ranging from senior technical lead to my current role as Director of Data Science and Analytics at OCLC. At OCLC, I oversee three cross functional teams including Data Science as well as the Analytics Platform team. In collaboration with a diverse group of stakeholders and subject matter experts, we spearhead data-driven initiatives to decision-making across the entire company from sales forecasting to AB testing for software products to complex record linkage problems to improve the quality of our bibliographic data, one of the company's most valuable assets.  Prior to OCLC, my career experience includes a number of senior technical leadership roles including most recently at Ketch, an early stage software startup. I joined Ketch as a founding Data Scientist and lead research in security and statistical disclosure control to drive development for our privacy-as-a-service product. Prior to Ketch, I held a similar role as a Senior Research Engineer at Immuta, another venture-backed company in a similar product space. I presented my research from my time at Immuta and Ketch at the 2022 IMS International Conference on Statistics and Data Science (manuscript in ) 
+
+ have led multiple research projects focusing on biomedical data, including a significant study on the predictive modeling of age-related diseases using large-scale datasets. This work not only demonstrated my technical expertise but also my ability to translate complex data into actionable insights that can drive clinical decision-making and policy development.
+
+In my previous role as a Lead Data Scientist at BenchSci, I successfully managed cross-functional teams, spearheaded data-driven initiatives, and collaborated with stakeholders to optimize research processes. My experience in administrative leadership includes overseeing project lifecycles, from conceptualization to execution, ensuring alignment with organizational goals, and fostering a collaborative environment that promotes innovation and continuous improvement.
+
+I am particularly drawn to the Senior Data Scientist Strategist position at NIA because of my deep-seated commitment to making a positive impact on humankind through science. The aging population presents unique challenges and opportunities, and I am eager to apply my expertise to help address these through cutting-edge research and data-driven strategies. I am inspired by NIA's dedication to advancing our understanding of aging and improving the lives of older adults, and I am confident that my skills and experience align well with the goals of your division.
+
+Thank you for considering my application. I look forward to the possibility of discussing how my background, skills, and enthusiasm can contribute to the innovative research and strategic initiatives at the National Institute on Aging.
+
+\makeletterclosing
+\end{document}
